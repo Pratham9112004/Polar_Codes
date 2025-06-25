@@ -7,6 +7,7 @@ BPSK Modulation and simulation over AWGN channels.
 Successive Cancellation (SC) and Successive Cancellation List (SCL) decoding implemented.
 LLR-based optimization to improve decoding accuracy under noisy environments.
 Performance validation through BER/SNR analysis and visual plots for N = 128, 256, 512, 1024.
+
 🔬 Topics Covered
 Channel Polarization Theory & Bhattacharyya Parameter
 Binary Erasure Channel (BEC)
@@ -14,9 +15,9 @@ Polar Transform and Encoding
 SC and SCL Decoding Techniques
 Simulation Results and Capacity Proofs
 Comparison with LDPC and Turbo Codes
+
 📊 Results
 The project simulates various block lengths (N) and message lengths (K), generating:
-
 Bit Error Rate (BER)
 Block Error Rate (BLER)
 Success Rates for SC and SCL Decoding
